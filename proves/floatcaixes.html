@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta author="marc">
+    <title>Float</title>
+    <style>
+    body {margin: 0;
+          padding: 0;
+    }
+    #contenidor{
+      width: 800px;
+      margin: 0 auto;
+    }
+    #cap{
+      background-color: red;
+      height: 150px;
+      width: 100%;
+      background-image: url(cafecap.jpg);
+      color: ivory;
+      text-align: center;
+      font-size:20px;
+      line-height: 150px;
+
+    }
+    #menu{
+      background-color: green;
+      float: left;
+      width: 38.75%;
+      height: 790px;
+      border: double 5px black;
+    }
+    #principal{
+      background-color: grey;
+      float: left;
+      width: 60%;
+      height: 800px;
+    }
+
+    #peu{
+      background-color: yellow;
+      height:100px;
+      width: 100%;
+      clear: both;
+  }
+
+    ul {
+      background-color: gold;
+      margin:0;
+      padding: 0;
+      overflow: hidden;
+    }
+    li {
+      background-color: yellow;
+      margin:1px;
+      display: block;
+      float: left;
+      height: 30px;
+      font-family: helvetica;
+      font-variant: small-caps;
+    }
+    li:hover{
+      background-color: white;
+    }
+    </style>
+  </head>
+  <body>
+    <div id="contenidor">
+      <div id="cap" class="quadrat">
+        <h1>Llibreria del Cafè</h1>
+      </div>
+      <ul>
+          <li>Inici</li>
+          <li>Productes</li>
+          <li>Sreveis</li>
+          <li>Botiga</li>
+          <li>Contacte</li>
+        </ul>
+      <div id="menu" class="quadrat">
+        menu
+      </div>
+      <div id="principal" class="quadrat">
+        principal
+      </div>
+
+      <div id="peu" class="quadrat">
+        peu
+      </div>
+    </div>
+  </body>
+</html>
