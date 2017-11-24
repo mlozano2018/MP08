@@ -1,0 +1,71 @@
+
+body{
+  margin:0;
+  padding: 0;
+  background-color: #e6e8eb;
+}
+#barra{
+  height: 43px;
+  background-color: #334f8b;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1000;
+}
+#contenidor{
+  height: 1500px;
+  width: 852px;
+  background-color: #FFF;
+  margin: 0 auto;
+}
+#portada{
+  height: 286px;
+  background-image: url(../img/portada.jpg);
+  margin-top: 43px;
+}
+#nom{
+  color: white;
+  width: 320px;
+  position: relative;
+  text-shadow: 0 0 5px black;
+  top: 240px;
+  left: 220px;
+  font-family: avenir;
+  font-family: Lucida grande; tahoma, san francisco,roboto,segoe Ui;
+}
+#perfil{
+  background-color: pink;
+  border: solid 4px white;
+  border-radius: 4px;
+  position: relative;
+  left: 8px;
+  box-shadow: 0 0 5px black;
+}
+
+#menu{
+  height: 44px;
+  background-color: #e6e8eb;
+  padding: 0px;
+  margin: 0 0 0 192px;
+  width: 431px;
+}
+
+#menu li{
+  float: left;
+  padding: 0 18px;
+  display: block;
+  font-weight: bold;
+  color: #000;
+  background-color: #FFF;
+  margin-right: 1px;
+  height: 44px;
+  line-height: 44px;
+}
+
+#menu li:hover{
+  color: #334f8b;
+  background-image: url(../img/select.gif);
+  background-repeat: no-repeat;
+  background-position: 40% 44px;
+}

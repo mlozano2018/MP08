@@ -1,0 +1,223 @@
+
+body{
+  margin:0;
+  padding: 0;
+  background-color: #e6e8eb;
+}
+#barra{
+  height: 43px;
+  background-color: #334f8b;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1000;
+}
+#contenidor{
+  width: 852px;
+  background-color: #FFF;
+  margin: 0 auto;
+}
+#portada{
+  height: 286px;
+  background-image: url(img/portada.jpg);
+  margin-top: 43px;
+}
+#nom{
+  color: white;
+  width: 320px;
+  position: relative;
+  text-shadow: 0 0 5px black;
+  top: 240px;
+  left: 220px;
+  font-family: avenir;
+  font-family: Lucida grande; tahoma, san francisco,roboto,segoe Ui;
+}
+#perfil{
+  background-color: pink;
+  border: solid 4px white;
+  border-radius: 4px;
+  position: relative;
+  left: 8px;
+  top: 98px;
+  box-shadow: 0 0 5px black;
+}
+
+#menu{
+  height: 44px;
+  background-color: #e6e8eb;
+  padding: 0px;
+  margin: 0 0 0 192px;
+  width: 434px;
+}
+
+#menu li{
+  float: left;
+  padding: 0 18px;
+  display: block;
+  font-weight: bold;
+  color: #000;
+  background-color: #FFF;
+  margin-right: 1px;
+  height: 44px;
+  line-height: 44px;
+}
+
+#menu li:hover{
+  color: #334f8b;
+  background-image: url(img/select.gif);
+  background-repeat: no-repeat;
+  background-position: 50% 37px;
+}
+#contingut{
+  border-top: solid 1px #e6e8eb;
+}
+
+.esquerra {
+  width: 323px;
+  background-color: #FFF;
+  margin: 10px 0;
+  border: solid 2px #AAA;
+}
+
+.esquerra h4 {
+  background-color: #FFF;
+  height: 14px;
+  padding: 5px;
+  font-weight: normal;
+  font-size: 18px;
+  text-indent: 36px;
+  background-image: url(img/lateral.png);
+  background-repeat: no-repeat;
+  margin: 0;
+}
+.esquerra ul{
+  margin-top: 20px;
+}
+  #fotos h4 {
+  background-position: 0 -24px;
+}
+
+  #fotos li {
+  display: block;
+}
+
+#fotos ul li {
+  background-color: green;
+  display: block;
+  width: 99px;
+  height: 99px;
+  margin: 4px;
+  float: left;
+  background-size: 99px 99px;
+
+}
+#fotos ul {
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
+  position: relative;
+}
+#f0 {
+  background-image: url(img/fotos/0.jpeg);
+}
+#f01 {
+  background-image: url(img/fotos/0.jpeg);
+}
+#f02 {
+  background-image: url(img/fotos/01.jpeg);
+}
+#f03 {
+  background-image: url(img/fotos/02.jpeg);
+}
+#f04 {
+  background-image: url(img/fotos/03.jpeg);
+}
+#f05 {
+  background-image: url(img/fotos/04.jpeg);
+}
+#f06 {
+  background-image: url(img/fotos/05.jpeg);
+}
+#f07 {
+  background-image: url(img/fotos/06.jpeg);
+}
+#f08 {
+  background-image: url(img/fotos/07.jpeg);
+}
+#f09 {
+  background-image: url(img/fotos/08.jpeg);
+}
+
+  #amics h4 {
+  background-position: 0 -48px;
+}
+#amics ul li {
+  display: block;
+  width: 99px;
+  height: 99px;
+  margin: 4px;
+  float: left;
+  color: white;
+  background-size: 99px 99px;
+  line-height: 178px;
+  text-shadow: 2px black;
+  text align: center;
+  text-indent: 5px;
+}
+#amics ul{
+  overflow: hidden;
+}
+#a01 {
+  background-image: url(img/perfil.jpg);
+}
+#a02 {
+  background-image: url(img/perfil.jpg);
+}
+#a03 {
+  background-image: url(img/perfil.jpg);
+}
+#a04 {
+  background-image: url(img/perfil.jpg);
+}
+#a05 {
+  background-image: url(img/perfil.jpg);
+}
+#a06 {
+  background-image: url(img/perfil.jpg);
+}
+#a07 {
+  background-image: url(img/perfil.jpg);
+}
+#a08 {
+  background-image: url(img/perfil.jpg);
+}
+#a09 {
+  background-image: url(img/perfil.jpg);
+}
+
+  #presentacio li {
+  display: block;
+  background-image: url(img/icones_estudis.png);
+  background-repeat: no-repeat;
+  text-indent: 15px;
+  font-size: 14px;
+  height: 40px;
+  line-height: 15px;
+}
+
+#presentacio .estudis {
+  background-image: url(img/icones_estudis.png);
+}
+#presentacio .Visc {
+  background-image: url(img/icones_domicili.png);
+}
+#presentacio .feina {
+  background-image: url(img/icones_feina.png);
+}
+#presentacio .amor {
+  background-image: url(img/icones_sentimental.png);
+}
+#presentacio .naixement {
+  background-image: url(img/icones_esdeveniments.png);
+}
